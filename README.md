@@ -51,3 +51,8 @@ INSERT INTO ponto (id_usuario, id_jogo, total) VALUES (x,x, 10); | Cadastrar Pon
 SELECT id_usuario FROM ponto WHERE total>0; | Listar Usuários que Jogaram um Jogo |
 SELECT id_usuario FROM ponto WHERE Max(total);  | Listar Usuário com mais Pontos |
 (SELECT COUNT(*) FROM ponto WHERE total>0);  | Listar Jogadores que já Jogaram |
+
+<hr> 
+
+<div align="center">Feito por <a href="https://github.com/devgamon" target="_blank">Gabriel Gamon</a> &#129398;</div>
+	
